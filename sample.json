@@ -1,0 +1,84 @@
+﻿{
+    "dex":5,
+    "name":"Charmeleon",
+    "height":1.1,
+    "weight":19,
+    "cinematicMoves":[
+        {
+            "name":"Fire Punch",
+            "id":"FIRE_PUNCH"
+        },
+        {
+            "name":"Flame Burst",
+            "id":"FLAME_BURST"
+        },
+        {
+            "name":"Flamethrower",
+            "id":"FLAMETHROWER"
+        }
+    ],
+    "quickMoves":[
+        {
+            "name":"Ember Fast",
+            "id":"EMBER_FAST"
+        },
+        {
+            "name":"Fire Fang Fast",
+            "id":"FIRE_FANG_FAST"
+        }
+    ],
+    "stats":{
+        "baseAttack":158,
+        "baseDefense":126,
+        "baseStamina":151
+    },
+    "types":[
+        {
+            "id":"POKEMON_TYPE_FIRE",
+            "name":"Fire"
+        }
+    ],
+    "encounter":{
+        "attackProbability":0.1,
+        "attackTimer":8,
+        "baseFleeRate":0.07,
+        "baseCaptureRate":0.1,
+        "cameraDistance":4.24875,
+        "collisionRadius":0.2575,
+        "dodgeDistance":1,
+        "dodgeProbability":0.15,
+        "jumpTime":1,
+        "maxPokemonActionFrequency":1.6,
+        "minPokemonActionFrequency":0.2,
+        "movementType":{
+            "name":"Movement Jump",
+            "id":"MOVEMENT_JUMP"
+        },
+        "gender":{
+            "malePercent":0.875,
+            "femalePercent":0.125
+        }
+    },
+    "evolution":{
+        "pastBranch":{
+            "name":"Charmander",
+            "id":"CHARMANDER"
+        },
+        "costToEvolve":{
+            "candyCost":25
+        },
+        "futureBranches":[
+            {
+                "name":"Charizard",
+                "id":"CHARIZARD",
+                "costToEvolve":{
+                    "candyCost":100
+                }
+            }
+        ]
+    },
+    "id":"CHARMELEON",
+    "forms":[
+
+    ]
+}
